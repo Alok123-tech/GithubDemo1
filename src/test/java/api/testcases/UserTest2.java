@@ -47,7 +47,7 @@ public class UserTest2 {
 		response.then().log().all();
 
 
-		//validation
+		//val idation
 		Assert.assertEquals(response.getStatusCode(),200);
 
 		//log
