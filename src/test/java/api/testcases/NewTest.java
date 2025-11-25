@@ -11,7 +11,7 @@ import io.restassured.http.ContentType;
 public class NewTest {
   @Test
   public void f() {
-	  
+	  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
 	  String payload = "extends BaseTes";
 	  RestAssured.given().baseUri("").contentType(ContentType.JSON).body(payload).when().post().then()
 	  .assertThat().statusCode(200).body("token",Matchers.notNullValue()).body(JsonSchemaValidator.matchesJsonSchema("C:\\"))
