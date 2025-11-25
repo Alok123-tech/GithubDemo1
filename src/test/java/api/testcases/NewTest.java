@@ -15,4 +15,4 @@ public class NewTest {
 	  String payload = "extends BaseTes";
 	  RestAssured.given().baseUri("").contentType(ContentType.JSON).body(payload).when().post().then()
 	  .assertThat().statusCode(200).body("token",Matchers.notNullValue()).body(JsonSchemaValidator.matchesJsonSchema("C:\\"))
-	  }
+	  cvbdsjvvbh}
